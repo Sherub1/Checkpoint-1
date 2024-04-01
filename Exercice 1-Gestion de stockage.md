@@ -5,6 +5,8 @@
 - 1
 - Enter
 - +6G
+  
+<br>
 
 - n
 - p
@@ -15,14 +17,14 @@
 - 2
 - 82
 - w
-  
- ![Capture d'écran 2024-03-31 174414](https://github.com/Sherub1/Checkpoint-1/assets/160050170/94a14aec-7e4b-4cbb-89d6-ccacf1888a93)
+
+![Capture d'écran 2024-03-31 174414](https://github.com/Sherub1/Checkpoint-1/assets/160050170/94a14aec-7e4b-4cbb-89d6-ccacf1888a93)
 
 
 - mkfs.ext4 -L DATA /dev/sdb1
 - mkswap -L SWAP /dev/sdb2
 
-  ![Capture d'écran 2024-03-31 174954](https://github.com/Sherub1/Checkpoint-1/assets/160050170/b35b9ed6-af30-44e7-ab65-f17dff18d204)
+![Capture d'écran 2024-03-31 174954](https://github.com/Sherub1/Checkpoint-1/assets/160050170/b35b9ed6-af30-44e7-ab65-f17dff18d204)
 
 
 - swapon /dev/sdb2
@@ -41,6 +43,5 @@
 - reboot
 
 
-  
 ![Capture d'écran 2024-03-31 174414](https://github.com/Sherub1/Checkpoint-1/assets/160050170/33d94ec3-b33d-456a-8c56-dac1c91a1de1)
 
