@@ -1,3 +1,4 @@
+```
 fdisk -l
 fdisk /dev/sdb
 n
@@ -36,3 +37,4 @@ nano /etc/fstab
 mount -a
 reboot
 ![alt text](<Capture d'écran 2024-03-29 111940.png>)
+```
