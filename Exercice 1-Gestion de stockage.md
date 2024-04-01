@@ -1,4 +1,4 @@
-``
+```
 fdisk -l
 fdisk /dev/sdb
 n
@@ -16,7 +16,7 @@ t
 2
 82
 w
-``
+```
 ![](https://drive.google.com/file/d/1nmttNaR_f-nlFU8smxsdWQiVb9NKP6SH/view?usp=drive_link)
 
 mkfs.ext4 -L DATA /dev/sdb1
