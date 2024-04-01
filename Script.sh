@@ -1,12 +1,10 @@
 #!/bin/bash
 
-
-
 #Vérification de la présence d'argument
 
+if [ $# -eq 0 ]; 
 
-
-if [ $# -eq 0 ]; then
+    then
 
     echo "Il manque les noms d'utilisateurs en argument - Fin du script"
 
@@ -14,11 +12,7 @@ if [ $# -eq 0 ]; then
 
 fi
 
-
-
 #Vérication de l'existence des utilisteurs
-
-
 
 for utilisateur in "$@"; 
 
@@ -30,13 +24,9 @@ for utilisateur in "$@";
 
            echo "L'utilisteur $utilisateur existe déjà"
 
-        
-
 #Demande de saisie d'un nouveau nom
 
-        
-
-         echo "Entrez un nouveau nom :"
+        echo "Entrez un nouveau nom :"
 
         read nouvelutilisateur
 
@@ -48,15 +38,9 @@ for utilisateur in "$@";
 
 #Crétion de l'utilisateur
 
-
-
-    sudo useradd "$utilisateur"
-
-    
+       sudo useradd "$utilisateur"
 
 #Vérification de la création
-
-    
 
     if cat /etc/passwd | grep $utilisateur > /dev/null
 
@@ -64,23 +48,13 @@ for utilisateur in "$@";
 
         echo "L'utilisateur $utilisateur a été créé"
 
-        
-
 #En cas d'erreur lors de la création
 
-        
-
-       else   
+        else   
 
         echo "Erreur à la création de l'utilisateur $utilisateur"
 
-        
-
-    
-
-    fi
-
-    
+        fi
 
 done
 
