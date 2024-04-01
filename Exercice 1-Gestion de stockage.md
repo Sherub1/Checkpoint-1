@@ -1,4 +1,3 @@
-
 - fdisk -l
 - fdisk /dev/sdb
 - n
@@ -16,13 +15,13 @@
 - 2
 - 82
 - w
-
-- ![](https://drive.google.com/file/d/1nmttNaR_f-nlFU8smxsdWQiVb9NKP6SH/view?usp=drive_link)
+  
+ ![](https://drive.google.com/file/d/1nmttNaR_f-nlFU8smxsdWQiVb9NKP6SH/preview)
 
 - mkfs.ext4 -L DATA /dev/sdb1
 - mkswap -L SWAP /dev/sdb2
 
-- ![](https://drive.google.com/file/d/1rk5d7pH7tFtRX9F8QlW0T13_RT1LX3vo/view?usp=drive_link)
+- ![](https://drive.google.com/file/d/1rk5d7pH7tFtRX9F8QlW0T13_RT1LX3vo/preview?usp=drive_link)
 
 - swapon /dev/sdb2
 
