@@ -5,11 +5,14 @@
 5. La commande echo avec l'utilistion de double guillemet et de d'antislash d'échappement.
 6. fg 1 
 7. La couche 2 comprend les switchs et les bridges qui gère la liaison réseau locale. Et la couche 3 comprend les routeurs et firewall ,ils déterminent le parcours et l'adressage IP.
-8. cd = cd 
+8.
+```bash
+   cd = cd 
    cp = Copy-Item -Path -Destination
    mkdir = New-Item -ItemType Directory -Name "..."
    ls = Get-ChildItem
-9. C'est la charge utile contenant la donnée ayant été encapsulée pour son transfert sur les réseaux.
-10. Majoritairement pour éviter l'épuisement des adresses IPV4.  
+```
+10. C'est la charge utile contenant la donnée ayant été encapsulée pour son transfert sur les réseaux.
+11. Majoritairement pour éviter l'épuisement des adresses IPV4.  
 
 
